@@ -8,7 +8,6 @@ function Navbar() {
   return (
     <nav className="navbar">
       <h1 className="logo">MySchools</h1>
-
       <button 
         className="menu-btn"
         onClick={() => setMenuOpen(!menuOpen)}
@@ -17,7 +16,7 @@ function Navbar() {
       </button>
 
       <div className={`nav-links ${menuOpen ? "open" : ""}`}>
-        <Link to="/" onClick={() => setMenuOpen(false)}>Home</Link>
+        <Link to="/" onClick={() => setMenuOpen(false)}>Schools</Link>
         <Link to="/add" onClick={() => setMenuOpen(false)}>Add School</Link>
       </div>
     </nav>
