@@ -10,6 +10,17 @@ body {
   color: #333;
 }
 
+/* App Layout */
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main {
+  flex: 1; 
+  padding-bottom: 20px;
+}
 
 /* Navbar */
 .navbar {
@@ -138,6 +149,21 @@ h2 {
   margin: 0 10px 15px;
   font-size: 14px;
   color: #555;
+}
+
+
+/* Footer */
+.footer {
+  background: #007bff;
+  color: white;
+  text-align: center;
+  padding: 12px 0;
+  margin-top: auto;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 14px;
 }
 
 /* Responsiveness */
