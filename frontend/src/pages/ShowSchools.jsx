@@ -14,7 +14,7 @@ function ShowSchools() {
   return(
     <div>
       <h2>Schools</h2>
-      <div className="grid">
+      <div className="flex">
         {schools.map(school => (
           <School key={school.id} school={school} />
         ))}
