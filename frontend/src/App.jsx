@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import AddSchools from "./pages/AddSchools.jsx";
-import ShowSchools from "./pages/showSchools.jsx";
+import ShowSchools from "./pages/ShowSchools.jsx";
 import Navbar from "./components/Navbar.jsx";
 import Footer from "./components/Footer.jsx";
 
