@@ -19,5 +19,5 @@ app.use(cors());
 app.use(express.json());
 
 // Routes
-app.use("images", express.static(path.join(__dirname, "public/images")));
+app.use("/images", express.static(path.join(__dirname, "public/images")));
 app.use("/api/schools", schoolRoutes);
