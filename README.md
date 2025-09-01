@@ -35,6 +35,6 @@ The app allows you to add schools, view school details, and display them in a cl
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/<your-username>/School-Application.git
+git clone https://github.com/ManvithGatty/School-Application.git
 cd School-Application
 ```
