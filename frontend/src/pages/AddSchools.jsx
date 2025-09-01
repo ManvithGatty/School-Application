@@ -14,7 +14,7 @@ function AddSchools() {
     Object.keys(data).forEach((key) => formData.append(key, data[key]));
     formData.append("image", data.image[0]);
 
-    await axios.post("http://localhost:5000/api/schools", formData, {
+    await axios.post("https://school-application-wd3o.onrender.com/api/schools", formData, {
       headers: { "Content-Type": "multipart/form-data" },
     });
 

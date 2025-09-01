@@ -7,7 +7,7 @@ function ShowSchools() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/api/schools")
+      .get("https://school-application-wd3o.onrender.com/api/schools")
       .then((res) => setSchools(res.data));
   }, []);
 
